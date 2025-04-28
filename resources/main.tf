@@ -1,5 +1,5 @@
 module "ingest_vpc" {
-  source        = "../../modules/ingestion-module-deletion"
+  source        = "../modules/ingestion-module-deletion"
   host          = "aws"
   resource_type = "vpc"
   revision = true
